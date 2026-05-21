@@ -24,3 +24,7 @@ name = "3xoa"
 location = "centralindia"
   
 }
+
+variable "x" {
+  type = map(any)
+}
