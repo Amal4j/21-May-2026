@@ -19,3 +19,12 @@ name = "3xo"
 location = "centralindia"
   
 }
+resource "azurerm_resource_group" "prs-20" {
+name = "3xoa"
+location = "centralindia"
+  
+}
+
+variable "x" {
+  type = map(any)
+}
