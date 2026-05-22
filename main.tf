@@ -16,15 +16,6 @@ location = var.rg-location
 }
 resource "azurerm_resource_group" "pr-20" {
 name = "3xo"
-location = "centralindia"
+location = "eastus"
   
-}
-resource "azurerm_resource_group" "prs-20" {
-name = "3xoa"
-location = "centralindia"
-  
-}
-
-variable "x" {
-  type = map(any)
 }
